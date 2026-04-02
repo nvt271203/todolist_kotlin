@@ -18,7 +18,9 @@ materialsExtended = "1.7.2"
 navigationCompose = "2.8.2"
 ksp = "2.0.21-1.0.28"
 workRuntimeKtx = "2.11.2"
-roomExternalAntlr = "2.8.4" # Thêm cái này để hết lỗi ksp ở phần [plugins]
+roomExternalAntlr = "2.8.4"
+roomKtx = "2.8.4"
+foundation = "1.10.6" # Thêm cái này để hết lỗi ksp ở phần [plugins]
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -49,6 +51,8 @@ androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomRunt
 androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
 androidx-work-runtime-ktx = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "workRuntimeKtx" }
 androidx-room-external-antlr = { group = "androidx.room", name = "room-external-antlr", version.ref = "roomExternalAntlr" }
+room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomKtx" }
+androidx-compose-foundation = { group = "androidx.compose.foundation", name = "foundation", version.ref = "foundation" }
 
 
 [plugins]
